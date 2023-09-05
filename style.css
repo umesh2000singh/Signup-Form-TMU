@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 570px;
+    width: 1050px;
+    background-color: rgb(18, 18, 56);
+}
+.loginsection{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height: 510px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+.loginsection h1{
+    color: blue;
+    font-weight: 800;
+}
+.loginsection p{
+    color: black;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* align-items: center; */
+    height: 100%;
+    margin-left: 70px;
+    width: 400px;
+}
+span{
+    color: blue;
+}
+.loginsection p{
+    font-weight: 700;
+}
+.entry{
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+.pass,.gender{
+    width: 345px;
+}
+.birthday{
+    display: flex;
+    width: 344px;
+
+}
+.birthday :nth-child(1){
+    width: 210px;
+}
+.birthday :nth-child(2),.birthday :nth-child(3){
+    width: 100px;
+    margin-left: 3px;
+}
+.lastsection{
+    display: flex;
+    gap: 135px;
+}
+.btn{
+    background-color: rgb(66, 66, 177);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 900;
+    font-size: 17px;
+    position: absolute;
+    right: 12%;
+}
+.line{
+    margin: 10px 0px 10px 0px;
+    /* position: absolute; */
+    height: 5px;
+    width: 35px;
+    background-color: blue;
+}
+.address_container,.phone_container{
+    display: flex;
+    position: relative;
+}
+.address{
+    margin-left: 20px;
+}
+.location,.phone_number{
+    margin-left: 20px;
+
+}
+
+.find{
+    margin-left: 50px;
+}
+
+.fa{
+    cursor: pointer;
+    margin-left: 20px;
+    text-align: center;
+    width: 30px;
+    background-color: rgb(68, 68, 250);
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+}
+
+
+.fa-map-marker,.fa-phone{
+    background-color: transparent;
+    position: absolute;
+    left: -10px;
+    margin: 0;
+    cursor: default;
+    width: 40px;
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.heading_container{
+    display: flex;
+    position: relative;
+}
+.left{
+    left: 10px;
+    background-color: rgb(68, 68, 250);
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.right{
+    right: 10px;
+    background-color: rgb(68, 68, 250);
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: blue;
+    border-radius: 50%;
+    top: 97px;
+    left: 340px;
+}
+
+.hover{
+    transition: all .3s;
+}
+.hover:hover{
+    scale: 110%;
+    background-color: red;
+}
